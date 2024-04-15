@@ -43,5 +43,12 @@
     const firstLang =  document.querySelector("li:first-child")
     firstLang.outerHTML = '<li>TypeScript</li>'
 
+    //remove
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+    
+    const thirdLang = document.querySelector("li:third-child(3)")
+    thirdLang.remove()
+
 </script>
 </html>
