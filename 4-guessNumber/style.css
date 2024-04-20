@@ -1,0 +1,24 @@
+body {
+    width: 300px;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.lastResult,
+.guesses {
+    color: #fff;
+    padding: 7px;
+}
+
+#subt {
+    background-color: #161616;
+    color: #fff ;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    margin-top: 50px;
+
+}
